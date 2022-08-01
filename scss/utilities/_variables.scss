@@ -1,9 +1,15 @@
 // TEXT
+$Pale-Violet: hsl(276, 100%, 81%); // (sub-heading at the top of the app UI)
+$Moderate-Violet: hsl(276, 55%, 52%); // (chat on the left)
+$Desaturated-Dark-Violet: hsl(271, 15%, 43%); // (chat on the right)
+$Grayish-Blue: hsl(206, 6%, 79%); // (placeholder text)
+$Very-Dark-Desaturated-Violet: hsl(271, 36%, 24%); // (main heading) & (submit button background)
+$Dark-Grayish-Violet: hsl(270, 7%, 64%); // (paragraph)
 
 // GRADIENTS
+$gradient: linear-gradient(265deg, rgba(136,56,255,1) 0%, rgba(233,66,255,1) 100%);
 
 // SECONDARY
-- White: hsl(0, 0%, 100%);
-- Light Grayish Violet (app background): hsl(270, 20%, 96%);
-- Very Dark Desaturated Violet (submit button background): hsl(271, 36%, 24%);
-- Very Light Magenta: hsl(289, 100%, 72%); // (radio button outline): 
+$White: hsl(0, 0%, 100%);
+$Light-Grayish-Violet: hsl(270, 20%, 96%); // (app background)
+$Very-Light-Magenta: hsl(289, 100%, 72%); // (radio button outline)
