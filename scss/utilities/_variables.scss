@@ -7,9 +7,13 @@ $Very-Dark-Desaturated-Violet: hsl(271, 36%, 24%); // (main heading) & (submit b
 $Dark-Grayish-Violet: hsl(270, 7%, 64%); // (paragraph)
 
 // GRADIENTS
-$gradient: linear-gradient(265deg, rgba(136,56,255,1) 0%, rgba(233,66,255,1) 100%);
+$gradientBottomPurple: linear-gradient(0deg, rgba(136,56,255,1) 30%, rgba(233,66,255,1) 100%);
+$gradientLeftPurple: linear-gradient(90deg, rgba(136,56,255,1) 30%, rgba(233,66,255,1) 100%);
+$gradientRightPurple: linear-gradient(180deg, rgba(136,56,255,1) 30%, rgba(233,66,255,1) 100%);
 
 // SECONDARY
 $White: hsl(0, 0%, 100%);
 $Light-Grayish-Violet: hsl(270, 20%, 96%); // (app background)
 $Very-Light-Magenta: hsl(289, 100%, 72%); // (radio button outline)
+
+// MIXIN
