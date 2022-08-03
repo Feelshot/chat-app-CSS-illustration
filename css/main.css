@@ -103,25 +103,26 @@ body main {
           width: 170px;
           height: 40px;
           border-radius: 14px 14px 14px 5px;
-          background: #c6cacd;
+          background: rgba(216, 158, 255, 0.48);
           padding: 10px 0 0 10px; }
           body main .telefono .bordeTelefono .textChat .topText .topTextOne p {
             color: #9241c8;
-            font-size: 12px;
+            font-size: 10px;
             width: 140px; }
         body main .telefono .bordeTelefono .textChat .topText .topTextTwo {
           width: 170px;
           height: 40px;
           border-radius: 14px 14px 14px 5px;
-          background: #c6cacd;
+          background: rgba(216, 158, 255, 0.48);
           margin-top: 10px;
           padding: 10px 0 0 10px; }
           body main .telefono .bordeTelefono .textChat .topText .topTextTwo p {
             color: #9241c8;
-            font-size: 12px;
+            font-size: 10px;
             width: 160px; }
         body main .telefono .bordeTelefono .textChat .boxTextImg .boxImgDogs {
-          display: flex; }
+          display: flex;
+          margin-top: 20px; }
           body main .telefono .bordeTelefono .textChat .boxTextImg .boxImgDogs .boxImgDogOne img {
             width: 50px;
             height: auto;
@@ -137,15 +138,133 @@ body main {
             height: auto;
             border-radius: 10px;
             margin: 0 5px 0 0; }
-  body main .purpleLeft {
-    /*
+        body main .telefono .bordeTelefono .textChat .boxTextImg .boxTextImgOne {
+          background: white;
+          box-shadow: 2px 2px 5px #c6cacd;
+          width: 170px;
+          border-radius: 15px 15px 5px 15px;
+          padding: 10px 0 10px 0; }
+          body main .telefono .bordeTelefono .textChat .boxTextImg .boxTextImgOne p {
+            width: 146px;
+            margin-left: 10px;
+            margin: 0 10px 0 10px;
+            font-size: 10px;
+            color: #6e5d7e; }
+        body main .telefono .bordeTelefono .textChat .boxTextImg .boxTextImgTwo {
+          background: white;
+          box-shadow: 2px 2px 5px #c6cacd;
+          width: 100px;
+          border-radius: 15px 15px 5px 15px;
+          padding: 10px 0 10px 0;
+          margin-top: 10px; }
+          body main .telefono .bordeTelefono .textChat .boxTextImg .boxTextImgTwo p {
+            width: auto;
+            margin-left: 10px;
+            margin: 0 10px 0 10px;
+            font-size: 10px;
+            color: #6e5d7e; }
+        body main .telefono .bordeTelefono .textChat .bottomText .textBoxBottom {
+          width: 160px;
+          height: 40px;
+          border-radius: 14px 14px 14px 5px;
+          background: rgba(216, 158, 255, 0.48);
+          margin-top: 10px;
+          padding: 10px 0 10px 10px; }
+          body main .telefono .bordeTelefono .textChat .bottomText .textBoxBottom p {
+            color: #9241c8;
+            font-size: 10px;
+            width: 140px;
+            line-height: 13px; }
+        body main .telefono .bordeTelefono .textChat .bottomText .boxGradientOne {
+          display: flex;
+          align-items: center;
+          background: linear-gradient(180deg, #8838ff 30%, #e942ff 100%);
+          width: 200px;
+          height: 40px;
+          border-radius: 15px 15px 15px 5px;
+          margin-top: 10px; }
+          body main .telefono .bordeTelefono .textChat .bottomText .boxGradientOne .circleGradientOne {
+            width: 10px;
+            height: 10px;
+            border: 1px solid #c6cacd;
+            border-radius: 100%;
+            margin-left: 10px; }
+          body main .telefono .bordeTelefono .textChat .bottomText .boxGradientOne .textGradientOne {
+            font-size: 12px;
+            color: white;
+            margin-left: 15px; }
+          body main .telefono .bordeTelefono .textChat .bottomText .boxGradientOne .priceGradientOne {
+            font-size: 16px;
+            font-weight: 700;
+            color: white;
+            margin-left: 30px; }
+        body main .telefono .bordeTelefono .textChat .bottomText .boxGradientTwo {
+          display: flex;
+          align-items: center;
+          background: linear-gradient(180deg, #8838ff 30%, #e942ff 100%);
+          width: 200px;
+          height: 40px;
+          border-radius: 15px 15px 15px 5px;
+          margin-top: 10px; }
+          body main .telefono .bordeTelefono .textChat .bottomText .boxGradientTwo .circleGradientTwo {
+            width: 10px;
+            height: 10px;
+            border: 1px solid #c6cacd;
+            border-radius: 100%;
+            margin-left: 10px; }
+          body main .telefono .bordeTelefono .textChat .bottomText .boxGradientTwo .textGradientTwo {
+            font-size: 12px;
+            color: white;
+            margin-left: 15px; }
+          body main .telefono .bordeTelefono .textChat .bottomText .boxGradientTwo .priceGradientTwo {
+            font-size: 16px;
+            font-weight: 700;
+            color: white;
+            margin-left: 30px; }
+      body main .telefono .bordeTelefono .boxChat {
+        width: 290px;
+        height: 40px;
+        background: white;
+        border-radius: 20px; }
+      body main .telefono .bordeTelefono .boxChatText {
+        display: flex; }
+        body main .telefono .bordeTelefono .boxChatText p {
+          color: #c6cacd;
+          font-size: 14px; }
+        body main .telefono .bordeTelefono .boxChatText .circleChatText {
+          width: 30px;
+          height: 30px;
+          border-radius: 100%;
+          background: #3e2753;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center; }
+          body main .telefono .bordeTelefono .boxChatText .circleChatText .arrowTop {
+            width: 3px;
+            height: 10px;
+            background: white;
+            transform: rotate(130deg);
+            margin: -2px;
+            border-radius: 30%; }
+          body main .telefono .bordeTelefono .boxChatText .circleChatText .arrowBottom {
+            width: 3px;
+            height: 10px;
+            background: white;
+            transform: rotate(50deg);
+            margin: -3px;
+            border-radius: 30%; }
+
+body .purpleLeft {
+  /*
             width: 300px;
             height: 600px;
             border-radius: 0px 0px 150px 150px;
             background: $gradientBottomPurple;
             */ }
-  body main .purpleRight {
-    /*
+
+body .purpleRight {
+  /*
             width: 300px;
             height: 600px;
             border-radius: 150px 150px 0px 0px;

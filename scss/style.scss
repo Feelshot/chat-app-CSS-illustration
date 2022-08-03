@@ -125,11 +125,11 @@ body {
                             width: 170px;
                             height: 40px;
                             border-radius: 14px 14px 14px 5px;
-                            background: $Grayish-Blue;
+                            background: $Pale-Violet-Desatured;
                             padding: 10px 0 0 10px;
                             p {
                                 color: $Moderate-Violet;
-                                font-size: 12px;
+                                font-size: 10px;
                                 width: 140px;
                             }
                         }
@@ -137,12 +137,12 @@ body {
                             width: 170px;
                             height: 40px;
                             border-radius: 14px 14px 14px 5px;
-                            background: $Grayish-Blue;
+                            background: $Pale-Violet-Desatured;
                             margin-top: 10px;
                             padding: 10px 0 0 10px;
                             p {
                                 color: $Moderate-Violet;
-                                font-size: 12px;
+                                font-size: 10px;
                                 width: 160px;
                             }
                         }
@@ -150,6 +150,7 @@ body {
                     .boxTextImg {
                         .boxImgDogs {
                             display: flex;
+                            margin-top: 20px;
                             .boxImgDogOne {
                                 img {
                                     width: 50px;
@@ -176,40 +177,144 @@ body {
                             }
                         }
                         .boxTextImgOne {
+                            background: $White;
+                            box-shadow: 2px 2px 5px $Grayish-Blue;
+                            width: 170px;
+                            border-radius: 15px 15px 5px 15px;
+                            padding: 10px 0 10px 0;
                             p {
-
+                                width: 146px;
+                                margin-left: 10px;
+                                margin: 0 10px 0 10px;
+                                font-size: 10px;
+                                color: $Desaturated-Dark-Violet;
                             }
                         }
                         .boxTextImgTwo {
+                            background: $White;
+                            box-shadow: 2px 2px 5px $Grayish-Blue;
+                            width: 100px;
+                            border-radius: 15px 15px 5px 15px;
+                            padding: 10px 0 10px 0;
+                            margin-top: 10px;
                             p {
-
+                                width: auto;
+                                margin-left: 10px;
+                                margin: 0 10px 0 10px;
+                                font-size: 10px;
+                                color: $Desaturated-Dark-Violet;
                             }
                         }
                     }
                     .bottomText {
                         .textBoxBottom {
+                            width: 160px;
+                            height: 40px;
+                            border-radius: 14px 14px 14px 5px;
+                            background: $Pale-Violet-Desatured;
+                            margin-top: 10px;
+                            padding: 10px 0 10px 10px;
                             p {
-
+                                color: $Moderate-Violet;
+                                font-size: 10px;
+                                width: 140px;
+                                line-height: 13px;
                             }
                         }
                         .boxGradientOne {
-                            .circleGradientOne {}
-                            .textGradientOne {}
-                            .priceGradientTwo {}
+                            display: flex;
+                            align-items: center;
+                            background: $gradientRightPurple;
+                            width: 200px;
+                            height: 40px;
+                            border-radius: 15px 15px 15px 5px ;
+                            margin-top: 10px;
+                            .circleGradientOne {
+                                width: 10px;
+                                height: 10px;
+                                border: 1px solid $Grayish-Blue;
+                                border-radius: 100%;
+                                margin-left: 10px;
+                            }
+                            .textGradientOne {
+                                font-size: 12px;
+                                color: $White;
+                                margin-left: 15px;
+                            }
+                            .priceGradientOne {
+                                font-size: 16px;
+                                font-weight: 700;
+                                color: $White;
+                                margin-left: 30px;
+                            }
                         }
                         .boxGradientTwo {
-                            .circleGradientTwo {}
-                            .textGradientTwo {}
-                            .priceGradientTwo {}
+                            display: flex;
+                            align-items: center;
+                            background: $gradientRightPurple;
+                            width: 200px;
+                            height: 40px;
+                            border-radius: 15px 15px 15px 5px ;
+                            margin-top: 10px;
+                            .circleGradientTwo {
+                                width: 10px;
+                                height: 10px;
+                                border: 1px solid $Grayish-Blue;
+                                border-radius: 100%;
+                                margin-left: 10px;
+                            }
+                            .textGradientTwo {
+                                font-size: 12px;
+                                color: $White;
+                                margin-left: 15px;
+                            }
+                            .priceGradientTwo {
+                                font-size: 16px;
+                                font-weight: 700;
+                                color: $White;
+                                margin-left: 30px;
+                            }
                         }
                     }
                 }
                 .boxChat {
+                    width: 290px;
+                    height: 40px;
+                    background: $White;
+                    border-radius: 20px;
+                }
                     .boxChatText {
-                        p {}
-                        .cirlceChatText {
-                            .arrowTop {}
-                            .arrowBottom {}
+                        display: flex;
+                        p {
+                            color: $Grayish-Blue;
+                            font-size: 14px;
+                        }
+                        .circleChatText {
+                            width: 30px;
+                            height: 30px;
+                            border-radius: 100%;
+                            background: $Very-Dark-Desaturated-Violet;
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            .arrowTop {
+                                width: 3px;
+                                height: 10px;
+                                background: $White;
+                                transform: rotate(130deg);
+                                margin: -2px;
+                                border-radius: 30%;
+                            }
+                            .arrowBottom {
+                                width: 3px;
+                                height: 10px;
+                                background: $White;
+                                transform: rotate(50deg);
+                                margin: -3px;
+                                border-radius: 30%;
+
+                            }
                         }
                     }
                 }
@@ -235,5 +340,4 @@ body {
             background: $Light-Grayish-Violet;
             */
         }
-    }
 }
