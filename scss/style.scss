@@ -7,12 +7,16 @@ body {
     main {
         background-color: $Light-Grayish-Violet;
         display: flex;
+        position: relative;
+        z-index: 1;
         .telefono {
-            margin: 50px 50px 0 100px;
+            margin: 200px 50px 0 400px;
+            position: absolute;
+            z-index: 4;
             .bordeTelefono {
                 background-color: $Light-Grayish-Violet;
                 width: 300px;
-                height: 650px;
+                height: 615px;
                 border: 10px solid $White;
                 border-radius: 20px;
                 box-shadow: 10px 10px 30px $Dark-Grayish-Violet;
@@ -122,8 +126,8 @@ body {
                     margin: 16px 0 0 14px;
                     .topText {
                         .topTextOne {
-                            width: 170px;
-                            height: 40px;
+                            width: 160px;
+                            height: 32px;
                             border-radius: 14px 14px 14px 5px;
                             background: $Pale-Violet-Desatured;
                             padding: 10px 0 0 10px;
@@ -134,8 +138,8 @@ body {
                             }
                         }
                         .topTextTwo {
-                            width: 170px;
-                            height: 40px;
+                            width: 160px;
+                            height: 32px;
                             border-radius: 14px 14px 14px 5px;
                             background: $Pale-Violet-Desatured;
                             margin-top: 10px;
@@ -148,6 +152,7 @@ body {
                         }
                     }
                     .boxTextImg {
+                        margin-left: 105px;
                         .boxImgDogs {
                             display: flex;
                             margin-top: 20px;
@@ -156,7 +161,7 @@ body {
                                     width: 50px;
                                     height: auto;
                                     border-radius: 10px;
-                                    margin: 0 5px 0 0;
+                                    margin: 0 10px 0 0;
                                 }
                             }
                             .boxImgDogTwo {
@@ -164,7 +169,7 @@ body {
                                     width: 50px;
                                     height: auto;
                                     border-radius: 10px;
-                                    margin: 0 5px 0 0; 
+                                    margin: 0 10px 0 0; 
                                 }
                             }
                             .boxImgDogThree {
@@ -172,20 +177,21 @@ body {
                                     width: 50px;
                                     height: auto;
                                     border-radius: 10px;
-                                    margin: 0 5px 0 0;
+                                    margin: 0 10px 0 0;
                                 }
                             }
                         }
                         .boxTextImgOne {
                             background: $White;
                             box-shadow: 2px 2px 5px $Grayish-Blue;
-                            width: 170px;
+                            width: 160px;
                             border-radius: 15px 15px 5px 15px;
                             padding: 10px 0 10px 0;
+                            margin: 10px 0 0 10px;
                             p {
-                                width: 146px;
+                                width: 140px;
                                 margin-left: 10px;
-                                margin: 0 10px 0 10px;
+                                margin: 0 0px 0 10px;
                                 font-size: 10px;
                                 color: $Desaturated-Dark-Violet;
                             }
@@ -196,7 +202,8 @@ body {
                             width: 100px;
                             border-radius: 15px 15px 5px 15px;
                             padding: 10px 0 10px 0;
-                            margin-top: 10px;
+                            margin: 10px 0 0 70px;
+
                             p {
                                 width: auto;
                                 margin-left: 10px;
@@ -272,7 +279,7 @@ body {
                                 font-size: 16px;
                                 font-weight: 700;
                                 color: $White;
-                                margin-left: 30px;
+                                margin-left: 50px;
                             }
                         }
                     }
@@ -282,14 +289,21 @@ body {
                     height: 40px;
                     background: $White;
                     border-radius: 20px;
+                    margin: 20px 0 0 5px;
                 }
                     .boxChatText {
                         display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin-top: 20px;
                         p {
                             color: $Grayish-Blue;
-                            font-size: 14px;
+                            font-size: 12px;
+                            margin-top: 10px;
+                            margin: 10px 0 0 30px;
                         }
                         .circleChatText {
+                            margin: 5px 0 0 120px;
                             width: 30px;
                             height: 30px;
                             border-radius: 100%;
@@ -313,7 +327,6 @@ body {
                                 transform: rotate(50deg);
                                 margin: -3px;
                                 border-radius: 30%;
-
                             }
                         }
                     }
@@ -321,23 +334,37 @@ body {
             }
         }
         .generalText {
-            h1 {}
-            p {}
+            position: absolute;
+            z-index: 3;
+            margin: 400px 0 0 900px;
+            h1 {
+                font-size: 60px;
+                color: $Very-Dark-Desaturated-Violet;
+            }
+            p {
+                margin-top: 30px;
+                width: 570px;
+                font-size: 20px;
+                line-height: 36px;
+                color: $Desaturated-Dark-Violet;
+            }
         }
         .purpleLeft {
-            /*
-            width: 300px;
-            height: 600px;
-            border-radius: 0px 0px 150px 150px;
+            width:550px;
+            height: 900px;
+            border-radius: 0px 0px 350px 350px;
             background: $gradientBottomPurple;
-            */
+            position: absolute;
+            z-index: 2;
+            margin-left: -80px;
         }
         .purpleRight {
-            /*
-            width: 300px;
-            height: 600px;
-            border-radius: 150px 150px 0px 0px;
+            width: 550px;
+            height: 900px;
+            border-radius: 350px 350px 0px 0px;
             background: $Light-Grayish-Violet;
-            */
+            position: absolute;
+            z-index: 2;
+            margin: 200px 0 0 1000px;
         }
 }
