@@ -340,6 +340,7 @@ body {
             h1 {
                 font-size: 60px;
                 color: $Very-Dark-Desaturated-Violet;
+                font-weight: 500;
             }
             p {
                 margin-top: 30px;
@@ -367,4 +368,42 @@ body {
             z-index: 2;
             margin: 200px 0 0 1000px;
         }
+}
+
+/* =-=-=-=- MEDIA QUERIES =-=-=-=- */
+/* ==== MOBILE ==== */
+@media (min-width: 100px) and (max-width: 650px) { 
+    body {
+        main {
+            .telefono {
+                margin: 80px 50px 0 30px;
+                }
+            }
+            .generalText {
+                margin: 800px 0 0 0px;
+                width: 375px;
+                h1 {
+                    font-size: 40px;
+                    width: 300px;
+                    margin: 0 auto 0 auto;
+                }
+                p {
+                    width: 300px;
+                    text-align: center;
+                    margin: 0 auto 0 auto;
+                    margin-top: 30px;
+                    font-size: 16px;
+                }
+            }
+            .purpleLeft {
+                width:550px;
+                height: 600px;
+                margin-left: -350px;
+            }
+            .purpleRight {
+                width: 550px;
+                height: 700px;
+                margin: 500px 0 0 200px;
+            }
+    }
 }

@@ -275,7 +275,8 @@ body .generalText {
   margin: 400px 0 0 900px; }
   body .generalText h1 {
     font-size: 60px;
-    color: #3e2753; }
+    color: #3e2753;
+    font-weight: 500; }
   body .generalText p {
     margin-top: 30px;
     width: 570px;
@@ -300,3 +301,30 @@ body .purpleRight {
   position: absolute;
   z-index: 2;
   margin: 200px 0 0 1000px; }
+
+/* =-=-=-=- MEDIA QUERIES =-=-=-=- */
+/* ==== MOBILE ==== */
+@media (min-width: 100px) and (max-width: 650px) {
+  body main .telefono {
+    margin: 80px 50px 0 30px; }
+  body .generalText {
+    margin: 800px 0 0 0px;
+    width: 375px; }
+    body .generalText h1 {
+      font-size: 40px;
+      width: 300px;
+      margin: 0 auto 0 auto; }
+    body .generalText p {
+      width: 300px;
+      text-align: center;
+      margin: 0 auto 0 auto;
+      margin-top: 30px;
+      font-size: 16px; }
+  body .purpleLeft {
+    width: 550px;
+    height: 600px;
+    margin-left: -350px; }
+  body .purpleRight {
+    width: 550px;
+    height: 700px;
+    margin: 500px 0 0 200px; } }
